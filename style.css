@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(0, 0, 0, .8);
 }
 
 .d-bloc button:hover {
@@ -123,7 +123,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -135,7 +134,9 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
-
+.d-bloc a .icon-md{
+    color: rgba(0, 0, 0, .6);
+}
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -152,7 +153,9 @@ a:hover {
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
-
+.social-id:hover{
+    color: rgba(255, 255, 255, 1);
+}
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
@@ -195,7 +198,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(4, 4, 4, .65);
 }
 
 .d-bloc .panel button:hover,
@@ -651,7 +654,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #1a1919!important;
 }
 
 .container {
@@ -818,11 +821,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 .footer__link{
@@ -830,6 +833,29 @@ h4 {
     list-style-type: none;
 }
 
+
+blockquote{
+    border: none;
+}
+
+blockquote p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+blockquote cite{
+    font-style: normal;
+    font-size: 20px;
+}
+.company-clients{
+    font-size: 22px;
+}
+
+.social-id{
+    display: flex;
+    flex-direction: column;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
