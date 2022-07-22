@@ -10,7 +10,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -459,13 +458,9 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
 
 .btn-rd {
     border-radius: 40px;
@@ -565,6 +560,7 @@ a[data-lightbox]:hover img {
 
 #lightbox-modal {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -654,7 +650,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #1a1919!important;
+    color: #1a1919;
 }
 
 .container {
@@ -856,6 +852,17 @@ blockquote cite{
     display: flex;
     flex-direction: column;
 }
+
+a > img{
+    margin: 0 auto;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
