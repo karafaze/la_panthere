@@ -676,7 +676,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -779,11 +779,11 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #c35e30!important;
     color: #FFFFFF!important;
 }
 
@@ -809,11 +809,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
@@ -861,6 +861,14 @@ a > img{
     display: flex;
     justify-content: center;
     gap: 1em;
+}
+
+.link__mail{
+    color: black;
+}
+.link__mail:hover{
+    text-decoration:underline;
+    color: blue;
 }
 
 @media (max-width: 1024px) {
